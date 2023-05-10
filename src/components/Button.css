@@ -1,0 +1,84 @@
+button {
+    max-width: 85px;
+    height: 36px;
+    width: 100%;
+    background: #E0E0E0;
+    box-shadow: 0px 2px 3px rgba(51, 51, 51, 0.2);
+    border-radius: 6px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+button:hover, button:focus {
+    background: #AEAEAE;
+}
+
+.outline {
+    border: 1px solid #3D5AFE;
+    color: #3D5AFE;
+    background: #fff;
+    box-shadow: none;
+}
+
+.outline:hover, .outline:focus {
+    background: rgba(41, 98, 255, 0.1);
+}
+
+.text {
+    border: none;
+    background-color: #fff;
+    color: #3D5AFE;
+    box-shadow: none;
+}
+
+.text:hover, .text:focus {
+    background: rgba(41, 98, 255, 0.1);
+}
+
+.disableShadow {
+    box-shadow: none;
+}
+
+.small {
+    width: 73px;
+    height: 32px;
+}
+
+.large {
+    width: 93px;
+    height: 42px;
+}
+
+.primary {
+    background: #2962FF;
+    color: #fff;
+}
+
+.primary:hover, .primary:focus {
+    background: #0039CB;
+}
+
+.secondary {
+    background: #455A64;
+    color: #fff;
+}
+
+.secondary:hover, .secondary:focus {
+    background: #1C313A;
+}
+
+.danger {
+    background: #D32F2F;
+    color: #fff;
+}
+
+.danger:hover, .danger:focus {
+    background: #9A0007;
+}
+
+.material-symbols-outlined {
+    padding: 0 5px;
+}
